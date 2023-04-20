@@ -41,6 +41,19 @@ def tab1():
         st.write("Selected option:", selected_option)
         st.write("Input value:", input_value)
 
+    # Define the data as a list of lists
+    data3 = [
+        ["Author Name", "Testunit Name", "Test Command"],
+        ["Patrick Mueller", "1.2", "Testcase 2,3"],
+        ["Nattan Meier", "1.3", "Testcase 3,5 "],
+        ["Philip Schaerer", "2.4", "Testcase 4,2"],
+    ]
+
+    # Create a pandas DataFrame with the data
+    df = pd.DataFrame(data3[1:], columns=data3[0])
+
+    # Display the DataFrame in a table in Streamlit
+    st.table(df)
 
 # Second Tab
 def tab2():
