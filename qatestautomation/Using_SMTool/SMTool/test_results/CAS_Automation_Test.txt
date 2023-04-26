@@ -1,0 +1,3496 @@
+
+
+Test#01_upload_fw 2019-03-19 14:12:17.289000
+COM6: OK
+Tab: PASS
+FW version downgrade !
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+FW version downgrade !
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+FW version downgrade !
+FW version downgrade !
+FW installation was NOT successfull ! Test Case: FAIL
+COM9: OK
+Tab: PASS
+FW version downgrade !
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-03-19 14:43:14.424000
+COM6: OK
+Tab: PASS
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+FW version downgrade !
+FW installation was NOT successfull ! Test Case: FAIL
+
+
+Test#01_upload_fw 2019-03-21 14:42:42.389000
+COM6: OK
+Tab: PASS
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+FW installation was NOT successfull ! Test Case: FAIL
+
+
+Test#01_upload_fw 2019-03-21 16:08:22.081000
+COM8: OK
+Tab: PASS
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-03-21 16:15:41.704000
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-03-21 16:27:26.553000
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Configuration file already installed on the device !
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Configuration file already installed on the device !
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Configuration file already installed on the device !
+
+
+Test#02_upload_config 2019-03-21 16:31:01.323000
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-03-22 15:18:23.324000
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-03-22 15:23:28.730000
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW3.0.5\SM3.05_4188_8594b70.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-03-29 12:26:56.790000
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-03-29 13:15:09.749000
+
+
+Test#04_read_device_info 2019-03-29 13:18:56.042000
+
+
+Test#04_read_device_info 2019-03-29 13:50:18.141000
+
+
+Test#04_read_device_info 2019-03-29 13:50:53.642000
+
+
+Test#04_read_device_info 2019-03-29 13:56:47.640000
+COM7: OK
+COM9: OK
+
+
+Test#04_read_device_info 2019-04-01 14:44:52.131000
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+
+
+Test#04_read_device_info 2019-04-01 15:39:32.766000
+COM7: OK
+Log file download was NOT successfull ! Test Case: FAIL
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 15:50:30.309000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 15:52:18.079000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:27:00.174000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:31:34.056000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:33:32.579000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:40:16.379000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:43:09.199000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:47:47.270000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:48:42.649000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:50:40.549000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-01 16:51:52.883000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 09:03:19.322000
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 09:15:26.389000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 09:19:10.235000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 09:58:15.445000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:00:45.656000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:06:16.250000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:08:27.241000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:10:03.583000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:12:43.306000
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:15:03.899000
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-02 10:18:39.971000
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-02 10:54:30.006000
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Configuration file already installed on the device !
+
+
+test#07_upload_config_reg 2019-04-02 10:57:54.962000
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST04.ini
+Configuration file already installed on the device !
+
+
+Test#01_upload_fw 2019-04-02 14:46:48.901000
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-02 15:14:08.728000
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.0.3\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.0.3\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.0.3\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.0.3\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.0.3\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.0.3\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-02 15:58:14.690000
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-02 16:01:56.343000
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\CAS\Firmware\FW4.2.1\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-02 16:33:18.829000
+COM6: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-02 16:45:33.289000
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config update NOT successfull ! Test Case: FAIL
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-02 16:55:30.655000
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.iniNot enough space on Device ! Test Case: FAIL
+Config update NOT successfull ! Test Case: FAIL
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.iniNot enough space on Device ! Test Case: FAIL
+Config update NOT successfull ! Test Case: FAIL
+
+
+test#07_upload_config_reg 2019-04-02 17:04:18.201000
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\CAS\ini files\universal_TEST05.ini
+Configuration file already installed on the device !
+
+
+Test#04_read_device_info 2019-04-03 07:41:46.533000
+Tab: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-03 07:43:55.489000
+Tab: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 08:58:27.238627
+Tab: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 09:01:56.151244
+Tab: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 09:03:30.140240
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 09:09:07.703487
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 09:15:00.769486
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 09:25:16.591239
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 10:54:58.266486
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#02_upload_config 2019-04-03 11:02:56.110769
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config update NOT successfull ! Test Case: FAIL
+COM13: OK
+Tab: FAIL
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config update NOT successfull ! Test Case: FAIL
+
+
+Test#02_upload_config 2019-04-03 11:16:31.130027
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-03 11:25:33.001553
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+
+
+Test#09_save_device_info 2019-04-03 12:08:27.038911
+Tab: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 12:12:54.827007
+Tab: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+
+
+Test#03_upload_obst_file 2019-04-03 12:39:21.434706
+COM6: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-03 12:53:16.468558
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 13:49:16.029375
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-03 14:01:08.428166
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-03 14:49:07.621859
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-04 09:05:15.833208
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-04 09:14:52.178709
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#02_upload_config 2019-04-04 09:19:40.553239
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-04 09:35:24.877709
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-04 09:44:25.731504
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-04 10:22:13.955265
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-04 10:47:44.779124
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-04 11:21:13.061102
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Configuration file already installed on the device !
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#03_upload_obst_file 2019-04-04 11:33:33.476650
+COM6: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-04 11:36:38.449694
+COM6: OK
+Tab: PASS
+Test Case: PASS
+COM7: OK
+Tab: PASS
+Test Case: PASS
+COM8: OK
+Tab: PASS
+Test Case: PASS
+COM9: OK
+Tab: PASS
+Test Case: PASS
+COM10: OK
+Tab: PASS
+Test Case: PASS
+COM11: OK
+Tab: PASS
+Test Case: PASS
+COM12: OK
+Tab: PASS
+Test Case: PASS
+COM13: OK
+Tab: PASS
+Test Case: PASS
+
+
+test#05_download_log_serial 2019-04-04 11:39:22.628320
+COM6: OK
+Log file download was successfull ! Test Case: PASS
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM8: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+COM10: OK
+Log file download was successfull ! Test Case: PASS
+COM11: OK
+Log file download was successfull ! Test Case: PASS
+COM12: OK
+Log file download was successfull ! Test Case: PASS
+COM13: OK
+Log file download was successfull ! Test Case: PASS
+
+
+test#06_download_log_SMData 2019-04-04 11:51:45.768244
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-04 11:52:52.626506
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST04_QC23x.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-04 11:58:58.855036
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-04 12:01:43.739420
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#03_upload_obst_file 2019-04-04 12:27:21.850871
+COM6: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-04 12:30:28.842761
+COM6: OK
+Tab: PASS
+Test Case: PASS
+COM7: OK
+Tab: PASS
+Test Case: PASS
+COM8: OK
+Tab: PASS
+Test Case: PASS
+COM9: OK
+Tab: PASS
+Test Case: PASS
+COM10: OK
+Tab: PASS
+Test Case: PASS
+COM11: OK
+Tab: PASS
+Test Case: PASS
+COM12: OK
+Tab: PASS
+Test Case: PASS
+COM13: OK
+Tab: PASS
+Test Case: PASS
+
+
+test#05_download_log_serial 2019-04-04 12:33:13.476932
+COM6: OK
+Log file download was successfull ! Test Case: PASS
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM8: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+COM10: OK
+Log file download was successfull ! Test Case: PASS
+COM11: OK
+Log file download was successfull ! Test Case: PASS
+COM12: OK
+Log file download was successfull ! Test Case: PASS
+COM13: OK
+Log file download was successfull ! Test Case: PASS
+
+
+test#06_download_log_SMData 2019-04-04 12:36:14.034129
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-04 12:37:20.756373
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM12: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM13: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+
+
+test#08_check_fw_version 2019-04-04 12:42:22.555126
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-04 12:45:07.078280
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-05 07:27:51.130044
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-05 07:59:30.314394
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Configuration file already installed on the device !
+
+
+Test#03_upload_obst_file 2019-04-05 08:05:54.654384
+COM6: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-05 08:08:58.515953
+COM6: OK
+Tab: PASS
+Test Case: PASS
+COM7: OK
+Tab: PASS
+Test Case: PASS
+COM8: OK
+Tab: PASS
+Test Case: PASS
+COM9: OK
+Tab: PASS
+Test Case: PASS
+COM10: OK
+Tab: PASS
+Test Case: PASS
+COM11: OK
+Tab: PASS
+Test Case: PASS
+COM12: OK
+Tab: PASS
+Test Case: PASS
+COM13: OK
+Tab: PASS
+Test Case: PASS
+
+
+test#05_download_log_serial 2019-04-05 08:11:44.837147
+COM6: OK
+Log file download was successfull ! Test Case: PASS
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM8: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+COM10: OK
+Log file download was successfull ! Test Case: PASS
+COM11: OK
+Log file download was successfull ! Test Case: PASS
+COM12: OK
+Log file download was successfull ! Test Case: PASS
+COM13: OK
+Log file download was successfull ! Test Case: PASS
+
+
+test#06_download_log_SMData 2019-04-05 08:20:06.161490
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-05 08:21:12.978197
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+No config file found !
+Config update NOT successfull ! Test Case: FAIL
+COM13: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-05 08:28:31.541664
+COM6: OK
+Tab: PASS
+Test Case: FAIL
+COM7: OK
+Tab: PASS
+Test Case: FAIL
+COM8: OK
+Tab: PASS
+Test Case: FAIL
+COM9: OK
+Tab: PASS
+Test Case: FAIL
+COM10: OK
+Tab: PASS
+Test Case: FAIL
+COM11: OK
+Tab: PASS
+Test Case: FAIL
+COM12: OK
+Tab: PASS
+Test Case: FAIL
+COM13: OK
+Tab: PASS
+Test Case: FAIL
+
+
+Test#09_save_device_info 2019-04-05 08:32:02.256561
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-05 08:58:25.075531
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-05 09:28:17.171053
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#03_upload_obst_file 2019-04-05 09:35:02.211117
+COM6: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-05 09:38:07.394947
+COM6: OK
+Tab: PASS
+Test Case: PASS
+COM7: OK
+Tab: PASS
+Test Case: PASS
+COM8: OK
+Tab: PASS
+Test Case: PASS
+COM9: OK
+Tab: PASS
+Test Case: PASS
+COM10: OK
+Tab: PASS
+Test Case: PASS
+COM11: OK
+Tab: PASS
+Test Case: PASS
+COM12: OK
+Tab: PASS
+Test Case: PASS
+COM13: OK
+Tab: PASS
+Test Case: PASS
+
+
+test#05_download_log_serial 2019-04-05 09:40:55.767733
+COM6: OK
+Log file download was successfull ! Test Case: PASS
+COM7: OK
+Log file download was successfull ! Test Case: PASS
+COM8: OK
+Log file download was successfull ! Test Case: PASS
+COM9: OK
+Log file download was successfull ! Test Case: PASS
+COM10: OK
+Log file download was successfull ! Test Case: PASS
+COM11: OK
+Log file download was successfull ! Test Case: PASS
+COM12: OK
+Log file download was successfull ! Test Case: PASS
+COM13: OK
+Log file download was successfull ! Test Case: PASS
+
+
+test#06_download_log_SMData 2019-04-05 09:46:47.548083
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Log file download was successfull ! Test Case: PASS
+Overriding log file
+Log file download was successfull ! Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-05 09:48:08.111272
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-05 09:54:21.757473
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-05 09:57:05.308204
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+
+
+Test#10_upload_fw_recovery 2019-04-05 14:03:46.575633
+Tab: PASS
+COM6: OK
+Recovery update started !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-05 14:28:10.730445
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM14: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-05 15:00:47.186507
+COM6: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Tab: PASS
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#03_upload_obst_file 2019-04-05 15:08:34.239328
+COM6: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+COM14: OK
+Tab: PASS
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-05 15:12:42.200318
+COM6: OK
+Tab: PASS
+Test Case: PASS
+COM7: OK
+Tab: PASS
+Test Case: PASS
+COM8: OK
+Tab: PASS
+Test Case: PASS
+COM9: OK
+Tab: PASS
+Test Case: PASS
+COM10: OK
+Tab: PASS
+Test Case: PASS
+COM11: OK
+Tab: PASS
+Test Case: PASS
+COM12: OK
+Tab: PASS
+Test Case: PASS
+COM13: OK
+Tab: PASS
+Test Case: PASS
+COM14: OK
+Tab: PASS
+Test Case: PASS
+
+
+test#07_upload_config_reg 2019-04-05 15:15:49.476568
+Tab: PASS
+COM6: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Uploading Config: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-05 15:22:48.291081
+COM6: OK
+Tab: PASS
+Test Case: FAIL
+COM7: OK
+Tab: PASS
+Test Case: FAIL
+COM8: OK
+Tab: PASS
+Test Case: FAIL
+COM9: OK
+Tab: PASS
+Test Case: FAIL
+COM10: OK
+Tab: PASS
+Test Case: FAIL
+COM11: OK
+Tab: PASS
+Test Case: FAIL
+COM12: OK
+Tab: PASS
+Test Case: FAIL
+COM13: OK
+Tab: PASS
+Test Case: FAIL
+COM14: OK
+Tab: PASS
+Test Case: FAIL
+
+
+Test#09_save_device_info 2019-04-05 15:26:45.666028
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+COM14: OK
+Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-05 16:10:19.440258
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+
+
+Test#04_read_device_info 2019-04-05 16:11:56.950472
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+
+
+Test#04_read_device_info 2019-04-05 16:14:59.000093
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+
+
+Test#04_read_device_info 2019-04-05 16:24:12.083694
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+
+
+Test#04_read_device_info 2019-04-05 16:33:24.279327
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+
+
+Test#04_read_device_info 2019-04-05 16:34:42.278428
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+
+
+Test#04_read_device_info 2019-04-05 16:40:53.354835
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+
+
+Test#04_read_device_info 2019-04-08 13:49:59.149326
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+
+
+Test#04_read_device_info 2019-04-08 14:01:24.279765
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+
+
+test#08_check_fw_version 2019-04-08 14:08:09.020276
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-09 10:22:08.916063
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-09 10:57:44.330253
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+
+
+Test#03_upload_obst_file 2019-04-09 11:05:02.191515
+Tab: PASS
+COM6: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM12: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM14: OK
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-09 13:21:20.899264
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+COM14: OK
+Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-09 16:35:31.028958
+Tab: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-09 17:02:52.384009
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.311_5774_515d3a6.fw
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.311_5774_515d3a6.fw
+
+
+test#08_check_fw_version 2019-04-09 17:09:35.395958
+COM10: OK
+Tab: PASS
+Firmware 4.3.11 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.3.11 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-10 07:50:55.895966
+Tab: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-10 08:00:40.514313
+COM10: OK
+Tab: PASS
+Test Case: FAIL
+COM11: OK
+Tab: PASS
+Test Case: FAIL
+
+
+test#08_check_fw_version 2019-04-10 08:02:59.336472
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-10 08:57:07.423277
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+
+
+Test#01_upload_fw 2019-04-12 12:42:28.854237
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+
+
+test#08_check_fw_version 2019-04-12 13:12:57.879755
+COM6: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-12 13:35:10.712642
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+
+
+Test#01_upload_fw 2019-04-12 15:52:50.511689
+Tab: PASS
+COM14: OK
+Device NOT supported for this FW version ! Test case: FAIL
+
+
+Test#01_upload_fw 2019-04-12 16:14:19.680212
+Tab: PASS
+COM14: OK
+Device NOT supported for this FW version ! Test case: FAIL
+
+
+Test#01_upload_fw 2019-04-12 16:24:55.366679
+Tab: PASS
+COM14: OK
+Device NOT supported for this FW version ! Test case: FAIL
+
+
+Test#01_upload_fw 2019-04-12 16:32:19.073267
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2_SHIPPING.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-12 17:12:26.788390
+Tab: PASS
+COM14: OK
+Device NOT supported for this FW version ! Test case: FAIL
+
+
+Test#09_save_device_info 2019-04-15 09:03:02.293177
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+COM14: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-15 09:16:00.256539
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW version already installed !FW version already installed !
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\FW4.4.0_RC\SM4.312_5778_050dad9.fw
+FW installation was NOT successfull ! FW version does not mach ! Test Case: FAIL
+
+
+test#08_check_fw_version 2019-04-16 09:12:36.070990
+COM6: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.3.12 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-16 09:16:46.325359
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-16 09:53:20.629023
+COM6: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-16 09:58:01.956585
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Configuration file already installed on the device !
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Configuration file already installed on the device !
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Configuration file already installed on the device !
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST01.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#03_upload_obst_file 2019-04-16 11:53:36.371446
+Tab: PASS
+COM6: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM7: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM8: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM9: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM10: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM11: OKNot enough space on Device ! Test Case: FAIL
+Obstacle file update NOT successfull ! Test Case: FAIL
+COM12: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM13: OK
+Obstacle file upload was successfull ! Test Case: PASS
+COM14: OK
+Obstacle file upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-16 12:00:40.618398
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+COM14: OK
+Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-29 11:55:06.830850
+Tab: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !Not enough space on Device ! Test Case: FAIL
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version already installed !FW version already installed !
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !Not enough space on Device ! Test Case: FAIL
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-29 12:58:56.483238
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+
+
+Test#02_upload_config 2019-04-29 13:42:39.269308
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Configuration file already installed on the device !
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config update NOT successfull ! Test Case: FAIL
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_TEST02.ini
+Config upload was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-29 13:51:38.443713
+COM6: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-29 16:02:41.690068
+COM6: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-29 16:05:58.801233
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !Not enough space on Device ! Test Case: FAIL
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !Not enough space on Device ! Test Case: FAIL
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-30 07:33:02.539517
+Tab: PASS
+COM14: OK
+Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-30 07:34:01.219123
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+COM14: OK
+Test Case: PASS
+
+
+Test#04_read_device_info 2019-04-30 07:40:46.947067
+Tab: PASS
+COM6: OK
+COM7: OK
+COM8: OK
+COM9: OK
+COM10: OK
+COM11: OK
+COM12: OK
+COM13: OK
+COM14: OK
+
+
+Test#01_upload_fw 2019-04-30 07:44:42.703809
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW version already installed !FW version already installed !
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#09_save_device_info 2019-04-30 08:16:09.157657
+Tab: PASS
+COM6: OK
+Test Case: PASS
+COM7: OK
+Test Case: PASS
+COM8: OK
+Test Case: PASS
+COM9: OK
+Test Case: PASS
+COM10: OK
+Test Case: PASS
+COM11: OK
+Test Case: PASS
+COM12: OK
+Test Case: PASS
+COM13: OK
+Test Case: PASS
+COM14: OK
+Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-30 08:26:52.550029
+COM6: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.2.1 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-30 08:30:42.223864
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !Not enough space on Device ! Test Case: FAIL
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !Not enough space on Device ! Test Case: FAIL
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+test#08_check_fw_version 2019-04-30 09:15:39.765859
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Test Case: FAIL
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Test Case: FAIL
+COM13: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-30 09:25:45.111472
+Tab: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+
+
+Test#01_upload_fw 2019-04-30 14:22:51.189543
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.21_5543_9991cd2.fw
+FW installation was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-30 15:43:12.906090
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#02_upload_config 2019-04-30 16:01:21.343409
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\ini\universal_sim_on.ini
+Config upload was successfull ! Test Case: PASS
+
+
+Test#04_read_device_info 2019-05-01 08:45:02.564768
+Tab: PASS
+COM6: OK
+Device restart successful! Test case: PASS
+COM7: OK
+Device restart successful! Test case: PASS
+COM8: OK
+Device restart successful! Test case: PASS
+COM9: OK
+Device restart successful! Test case: PASS
+COM10: OK
+Device restart successful! Test case: PASS
+COM11: OK
+Device restart successful! Test case: PASS
+COM12: OK
+Device restart successful! Test case: PASS
+COM13: OK
+Device restart successful! Test case: PASS
+COM14: OK
+Device restart successful! Test case: PASS
+
+
+Test#04_read_device_info 2019-05-01 08:51:58.266129
+Tab: PASS
+COM6: OK
+Device restart successful! Test case: PASS
+COM7: OK
+Device restart successful! Test case: PASS
+COM8: OK
+Device restart successful! Test case: PASS
+COM9: OK
+Device restart successful! Test case: PASS
+COM10: OK
+Device restart successful! Test case: PASS
+COM11: OK
+Device restart successful! Test case: PASS
+COM12: OK
+Device restart successful! Test case: PASS
+COM13: OK
+Device restart successful! Test case: PASS
+COM14: OK
+Device restart successful! Test case: PASS
+
+
+Test#04_read_device_info 2019-05-01 11:41:17.517123
+Tab: PASS
+COM14: OK
+
+
+Test#04_read_device_info 2019-05-01 11:53:36.882124
+Tab: PASS
+COM14: OK
+
+
+Test#01_upload_fw 2019-05-01 11:56:11.588903
+Tab: PASS
+COM6: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM7: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM8: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM9: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM10: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM11: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM12: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM13: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW version downgrade !
+FW installation was successfull ! Test Case: PASS
+COM14: OK
+Uploading FW: C:\Users\lmate\Documents\test_data\fw\SM4.03_4820_82a84b4.fw
+FW installation was NOT successfull ! Test Case: FAIL
+
+
+test#08_check_fw_version 2019-05-01 13:02:22.862103
+COM6: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM7: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM8: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM9: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM10: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM11: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM12: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM13: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+COM14: OK
+Tab: PASS
+Firmware 4.0.3 installed! Test Case: PASS
+
+
+Test#04_read_device_info 2019-05-10 08:16:37.977460
+Tab: PASS
+COM6: OK
+Number of wifi module resets: 50
+
+
+Test#04_read_device_info 2019-05-10 14:35:15.262856
+Tab: PASS
+COM6: OK
+Number of wifi module resets: 50

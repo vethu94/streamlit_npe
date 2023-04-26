@@ -1,0 +1,11 @@
+
+
+import test_01_upload_fw
+import test_02_upload_config
+import test_03_upload_obst
+import test_04_read_device_info
+import test_05_download_log_serial
+import test_06_download_log_SMData
+import test_07_upload_config_reg
+import test_08_check_fw_version
+import test_09_save_device_info

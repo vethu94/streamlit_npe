@@ -1,0 +1,424 @@
+
+
+Test#09_save_device_info 2019-04-30 08:16:09.157657
+
+
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC250 RevB
+Serial:           	70040136451
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184386n;8.517716e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=2.03m, drift=7.64m
+MAC Address:      	00:23:A7:5F:0B:97
+IP Address:       	0.0.0.0
+UpTime:           	0 days,00:28:02
+UTC Time:         	2019/04/30,06:16:58
+Network:          	Network not Activated
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:28:04
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.265
+RF:               	Carrier Detect: 12% Peers: 20 Visibility: 99% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 0 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+St
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC250 RevB
+Serial:           	70040170001
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184376n;8.517731e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=1.87m, drift=4.38m
+MAC Address:      	00:23:A7:27:A8:13
+IP Address:       	0.0.0.0
+UpTime:           	0 days,00:24:24
+UTC Time:         	2019/04/30,06:17:14
+Network:          	Network not Activated
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:24:26
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.265
+RF:               	Carrier Detect: 12% Peers: 20 Visibility: 95% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 200 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC250 RevB
+Serial:           	70040102422
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184383n;8.517721e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=1.73m, drift=3.08m
+MAC Address:      	00:23:A7:FE:A9:C0
+IP Address:       	0.0.0.0
+UpTime:           	0 days,00:21:06
+UTC Time:         	2019/04/30,06:17:31
+Network:          	Network not Activated
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:21:07
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.324
+RF:               	Carrier Detect: 12% Peers: 21 Visibility: 94% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 0 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+St
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC235 RevC
+Serial:           	70001883301
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184369n;8.517743e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=4.37m, drift=5.35m
+UpTime:           	0 days,00:17:20
+UTC Time:         	2019/04/30,06:17:47
+Network:          	No Network Device
+Expiry Date:      	NEVER
+Device Error:     	None
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.147
+RF:               	Carrier Detect: 12% Peers: 20 Visibility: 94% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 200 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+Stop KeyControl
+Recover Firmware
+Format Device
+Reset Device
+statusStrip1
+menuStrip1
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC230 RevC
+Serial:           	70011906260
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184389n;8.517734e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=4.84m, drift=8.92m
+UpTime:           	0 days,00:45:31
+UTC Time:         	2019/04/30,06:18:03
+Network:          	No Network Device
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:45:32
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.413
+RF:               	Carrier Detect: 13% Peers: 20 Visibility: 99% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 20 Heavy Encounters: 50 Light Encounters: 60 Distance Driven: 8400 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+Stop KeyControl
+Recover Firmware
+Format Device
+Reset Device
+status
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC240 RevA
+Serial:           	70030056350
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184377n;8.517729e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=2.50m, drift=3.19m
+GSM IMEI:         	351802052157322
+UpTime:           	0 days,00:13:23
+UTC Time:         	2019/04/30,06:18:19
+Network:          	No Network Device
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:13:25
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.147
+RF:               	Carrier Detect: 13% Peers: 20 Visibility: 92% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 0 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+Stop KeyControl
+Recover Firmware
+For
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC230 RevA
+Serial:           	70011905400
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184376n;8.517740e
+Accuracy:         	Ok, fx3D, hacc=1.80m, drift=4.30m
+UpTime:           	0 days,00:46:03
+UTC Time:         	2019/04/30,06:18:35
+Network:          	No Network Device
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+Device Error:     	GPIO Configuration FATAL Gpio1 does not support input mode PullDown
+ErrorTime:        	0 days,00:46:04
+GPIO Values:      	
+VOLTAGE:          	23.265
+RF:               	Carrier Detect: 12% Peers: 20 Visibility: 100% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 0 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+Stop KeyControl
+Reco
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC241 RevA
+Serial:           	70031167300
+Vehicle ID:       	LMATE_A
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184375n;8.517738e
+Accuracy:         	Inaccurate, fx3DIndoors, hacc=1.50m, drift=0.00m
+GSM IMEI:         	358503060435790
+UpTime:           	0 days,00:09:09
+UTC Time:         	2019/04/30,06:18:51
+Network:          	No Network Device
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:09:11
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.206
+RF:               	Carrier Detect: 13% Peers: 20 Visibility: 91% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 0 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+Stop KeyControl
+Recover Firmware
+For
+
+
+Device Info
+
+Device Info
+
+
+
+Refresh
+Unit Type:        	QC250 RevA
+Serial:           	70040173300
+Vehicle ID:       	LMATE_B
+Firmware version: 	4.2.1
+Build No:         	5543
+System Monitoring:	Off
+Coordinates:      	coord=47.184379n;8.517744e
+Accuracy:         	Ok, fx3D, hacc=1.13m, drift=0.00m
+MAC Address:      	00:23:A7:1D:3C:2E
+IP Address:       	0.0.0.0
+UpTime:           	0 days,00:05:11
+UTC Time:         	2019/04/30,06:19:07
+Network:          	Network not Activated
+Expiry Date:      	NEVER
+Device Error:     	User Interface
+ErrorTime:        	0 days,00:05:13
+GPIO Values:      	
+GEAR:             	0
+VOLTAGE:          	23.383
+RF:               	Carrier Detect: 11% Peers: 20 Visibility: 65% 
+SysMon:           	Heavy Alarms: 0 Light Alarms: 0 Heavy Encounters: 0 Light Encounters: 0 Distance Driven: 0 Period: 60 
+
+
+
+Diagnostics
+
+Perform Flash Test
+Target directory
+...
+C:\Users\lmate\AppData\Roaming\SMTool2.4\
+Run Diagnostics
+
+
+Maintenance
+Disable Sys Mon
+Enable Sys Mon
+Stop KeyControl
+R

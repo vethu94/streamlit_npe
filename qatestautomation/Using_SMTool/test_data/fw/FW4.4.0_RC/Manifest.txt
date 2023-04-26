@@ -1,0 +1,588 @@
+(Latest on TOP)
+
+
+* SM4.312_5778_050dad9.fw
+  Date: 10.04.2019
+  Build by bodi
+  Purpose: FW4.4 Release Candidate - non official release
+  Expiration date: 2019-07-19
+  Changes:
+   - Fix VIS errors showing incorrect error message description
+   - Expiration Date: definition of the expiration date is included only in the modules that need it,
+     instead of including it in every module
+
+
+
+---------------------------------------------------------------------------------------------------------
+(previous versions)
+
+
+* SM4.311_5774_515d3a6.fw
+  Date: 08.04.2019
+  Build by sppe
+  Purpose: Sprint build - non official release
+  Expiration date: 2019-07-17
+  Changes:
+   - Restructured the VIS module such that VIS error entries are no longer toggling beween "new" and  
+     "resolved" when a non-VIS related error is present (such as a Display error)
+   - Fixed a bug related to the warning we send to the OEM (HXGN protocol) prior to a VIS BrakeAssist
+     intervention. The warning now appears with the CAS alarm, i.e., well ahead of the intervention 
+     command
+   - Fixed a bug related to the mismatch error with the warning flag we sent to OEM. The mismatch
+     error now does not show up any more when the warning is disabled via VIS Action Mask.
+   - Integrated the GuardVant fatigue monitoring system. To turn this feature on, set configuration
+     parameter "enable_fatigue_mode" to 1, otherwise it is disabled by default. In case this feature
+	 is turned on, the Mode/Network LED on the QC unit will display the status of the Fatigue sensor,
+	 and not of the network/connection. It will display green, if the fatigue sensor regularly sends 
+	 a heartbeat message over Dataport, and amber or red if it is not responsive or in an error state.
+	 Further, if the fatigue sensor is in an error state, a CAS error log entry is created. 
+
+
+* SM4.310_5759_bd9b9cd.fw
+  Date: 22.03.2019
+  Build by sppe
+  Purpose: Sprint build - non official release
+  Expiration date: 2019-06-30
+  Changes:
+   - Fixed a bug related to the VIS BrakeAssist radar confirmation (position check)
+   - Memory Management: change the form LaunchAlarm, Vehicle State Fusion, General Purpose Controller and
+     Mine App modules define their IDs for a chunk of managed memory. 
+   - Microphone: re-factor. Use managed memory, instead of static. Disabled by default. Add configuration
+     parameter "mic_enable" to enable (setting parameter to 1) or to disable it (setting parameter to 0,
+     which is the default value).
+   - Dataport: re-factor. Use managed memory, instead of static.
+
+   
+* SM4.39_5752-sppe_b2b7b1c.fw
+  Date: 18.03.2019
+  Build by sppe
+  Purpose: Non official release -- Another temporary (published, but not yet reviewed) firmware 
+           for the VIS HXGN driver testing with Volvo wheel loaders (Eskilstuna, Sweden)
+  Expiration date: 2019-06-26
+  Changes:
+   - Now allowing values between 1 and 255 with the config parameters
+     ~ vis_veh_make,
+	 ~ vis_veh_model, and
+	 ~ vis_veh_generation
+    
+
+* SM4.39_5751_d3afc21.fw
+  Date: 15.03.2019
+  Build by bodi
+  Purpose: Sprint build - non official release
+  Expiration date: 2019-06-23
+  Changes:
+   - Traffic awareness: increase maximum distances for "distfar" (to 2500), "distnear" (to 2000), and
+     "distclose" (1500).
+   - Collision and Memory Management modules: changed names from some variables and improve code 
+     documentation.
+   - Scheduler: change the signature of the methods related with the logging of the statistics
+     execution time of the tasks
+   - Memory Management: add helper function to create a chunk of memory
+   - VIS protocol version: introduced a new config parameter "vis_protocol_version" .
+     The VIS support has grown to five OEMs with three more "in discussion". In order to account for 
+	 all the "little differences" among these protocols, we needed to introduce a protocol version
+	 parameter ("1", "2", "3") on top of the protocol type ("Komatsu", "HXGN", "ISO").
+     The protocol version is reused for all the VIS drivers using the following "mapping":
+                +-------------+---------+----------+
+                |   Komatsu   |  HXGN   |   ISO    |
+      +---------+-------------+---------+----------+
+      |    1    |  ( <=2017)  |   RCT   |   CAT    |
+      +---------+-------------+---------+----------+
+      |    2    |             |   VCE   |   HCM    |
+      +---------+-------------+---------+----------+
+      |    3    |    (2018)   |   HTM   |  "final" |
+      +---------+-------------+---------+----------+
+     Glossary:
+     RCT: Remote Controlled Technologies (Perth, Australia)
+     CAT: Caterpillar’s rigid-frame trucks (Decatur, IL design control) and ADTs (Peterlee, UK)
+     VCE: Volvo Construction Equipment (Braås, Sweden)
+     HCM: Hitachi Construction Machinery (Japan)
+     HTM: Hitachi Trucks (ex Euclid) (Canada)
+
+
+* SM4.38_5731_24ec587.fw
+  Date: 04.03.2019
+  Build by bodi
+  Purpose: Sprint build - non official release
+  Expiration date: 2019-06-11
+  Changes:
+   - PanicAlarm: multiple improvements in the logging of PanicAlarm 
+   - Vehicle State Fusion: remove constrain to perform the reading atomically the GPIOs related with 
+     gear signal. This constrain was leading to spontaneous resets of the unit.
+   - Compilation parameters: change the default compilation parameters to the LPC2387.
+   - Windows Simulation: disable the automatic simulation of gear state. Add possibility to enable it
+     via Textcomm command and in some simulation scenarios.
+   - Improve heading estimation in the special case when we reversing in South direction
+
+
+* SM4.37_5721_e242e4e.fw
+  Date: 18.02.2019
+  Build by bodi
+  Purpose: Sprint build - non official release
+  Expiration date: 2019-05-29
+  Changes:
+   - Add logging of the execution statistics of the scheduler of software tasks. This can be 
+       configured through configuration parameter "log_sched_interval"
+   - Add General Purpose Controller (GPC): see Application Note
+   - Add 4 GPIOs dedicated for GPC, including hook to IVMS and to GPIO log:  see GPIO Application Note
+   - Improve logging of the following features: LaunchAlarm, PanicAlarm and Vehicle State Fusion
+   - Add possibility to disable production of PanicAlarm: see Application Note
+   - Extend Dataport protocol for PanicAlarm, LaunchAlarm, PA and RadarAlarm
+   - Logging: assignment of managed memory instead of static memory 
+   - Change conditions to LOCK/unlock the global position at standstill: position is locked
+     immediately when going into a standstill mode and then released only after the host vehicle goes
+	 out of standstill or if the "horizontal accuracy" value significantly gets better (i.e., smaller).
+   - VIS BrakeAssist "target confirmation" (before triggering a BA intervention): Removed possibility
+     to activate and configure the speed and the direction of a detected radar target compared to a 
+	 CAS opponent
+
+
+* SM4.36_5691_42ce490.fw
+  Date: 04.02.2019
+  Build by bodi
+  Purpose: Sprint build - non official release
+  Changes:
+   - Add official support to QC241, QC242 and QC243 CAS units to the bootloader. 
+   - Bump bootloader version from 1.61 to 2.00.
+   - Add to the firmware the bootloader 2.00, supporting the latest HW changes: QC 241, 242 and 243 
+       as well as flash chip SST26
+   - Install bootloader 2.00, if unit has an older bootloader version. This fixes the issue that 
+       FW4.20 could not be upgraded on SST26 units using the normal methods via SMTool, SMData, 
+       or SyncStation
+   - Note: On an SST26 unit with the old bootloader (e.g., 1.61), this version needs to be installed
+     using the "Recover Firmware" feature on SMTool
+   - Implement Panic Alarm v02: see Application Note
+   - LaunchAlarm: remove special heuristics for rotating equipment and fix the issue that an overriden
+       LaunchAssist was not disabling LaunchAlarm
+   - Dataport: update Dataport sentences for LaunchAlarm and PanicAlarm.
+   - Introduce an alternatively way of heading prediction when reversing: the heading is just following
+     the track/course/path of the antenna. The heading is updated every 2 meters (for light vehicles) or
+	 every 4 meters for any other vehicle type.
+   - Introduced various improvements regarding move mode (heuristics) debugging
+   - Removed "kalmanheading" blob from the DataStore
+   - Various fixed related to the simulator (e.g., when going reverse)
+
+
+* SM4.34_5656_7b917c7.fw
+  Date: 28.12.2018
+  Build by sppe
+  Purpose: Sprint build - non official release
+  Changes:
+   - Fixed the mechanism for de-classification of PA/LA threats (if gear is not known or indicates
+     motion in the opposite direction to which the anchor is installed)
+   - Changed the intervention release condition for VIS LaunchAssist: the state of any brake system 
+     (i.e., Park Brake or Load/Dump Lock engaged or (Service) Brake pedal being pressed) is considered
+	 only for the engaging but not for the disengagement of the LaunchAssist intervention.
+   - (Fixed list of deprecated parameters)
+   - Fixed a bug related to the minimum-warning-time mechanism (before braking): the warning flag is 
+     no longer cleared while waiting for "vis_min_warn_time" timer to expire
+   - Fixed a bug related to the maximum brake speed: now using the proper field to decide when to reset
+     the brake intervention when speed is greater than "vis_max_brake_speed"
+   - Fix: Gear-shifter position "Parked" treated like "Neutral": Unlike with the Komatsu VIS driver, 
+     with the HXGN and ISO protocols we can also get the position "Parked" on top of "Forward",
+	 "Reverse", and "Neutral". For the LaunchAssist/LaunchAlert features, we want to treat "Parked" the
+	 same way as "Neutral"
+   - Fixed RampAssist Retarder handling: retarder intensity will now be held only once the release speed
+     is being reached
+
+
+* SM4.33_5646_45c3b98.fw
+  Date: 03.12.2018
+  Build by bodi
+  Purpose: Sprint build - non official release
+  Changes (last sprint):
+   - Fix file system corruption by changing SST26 mechanism to erase flash file system page
+
+   
+* SM4.31_5644_1f17bb5.fw
+  Date: 19.11.2018
+  Build by bodi
+  Purpose: Sprint build - non official release
+  Changes (last sprint/15 days):
+   - Handling of config errors: add description of line with error
+  Changes (since Glencore demo):
+   - Increased TTL of radar alarms from 1 to 3 sec
+   - Change display of non-fatal errors in the LED display (see Error Mechanism TN)
+  Changes (since Hitachi Urahoro PG Testing)
+   - Introducing VIS Action Masks: This change allows to freely configure the behavior of a 
+     "VIS driver" (Komatsu, HXGN, or ISO) by specifying specific "OEM functions" as soon as 
+	 a "VIS application feature" (LaunchAssist, ..., BrakeAssist) becomes active.
+     We do this using the new configuration parameters:
+     - "vis_action_mask_for_la" (LaunchAssist)
+	 - ...
+     - "vis_action_mask_for_ba" (BrakeAssist)
+	 see VIS_AN for more information
+	 - new feature "VIS Alert" (see AN)
+	 - new feature "Launch Alert" (see AN)
+	 - change of PPS alarm filtering and rename PPS -> PA
+	 - added LTE functionality for QC240 revB, aka QC241/QC242/QC243
+
+
+* SM4.31_5618-bodi_63270d4.fw
+  Date 14.09.2018
+  Build by bodi
+  Purpose: Experiment the GPIO override
+  Changes (introduced in the feature-SMCAS-VIS-OverrideGPIO branch):  
+   - rename the VIS Override module to VIS Bypass: this module is used only by Xiao (as far as I know). It allows to shortcut some functionalities in VIS, such as sending CAN commands, activating VIS functions and etc. Now, to activate those functions, instead of writing:
+        $VIS,O, ...
+        you should write
+        $VIS,B, ... 
+   - implement module VIS Override, managing all functions related to override in VIS: sensing, analyzing, executing and error handling. This lead to a mid-level refactoring of the VIS override logic and situation module in comparison to what was implemented before. 
+   - introduction of the error type VIS OVR for VIS Override module
+   - Introduction of the GPIO input "OVERRIDE_2"
+   - Extension of VIS Override module to activate VIS override over GPIO, like following:
+        possibility to use (A) no GPIO override, (B) one GPIO override or (C) two "asymmetric" (i.e., one pulldown other pullup) GPIO override to activate override in VIS. The FW will automatically detect which are the defined GPIO override and will transparently adjust the activation of VIS override accordingly. NOTE: for VIS drivers "ISO", it is compulsory to have two "asymmetric" GPIO override, otherwise, it will lead to a fatal error. 
+        the FW will aggregate the values of the two "asymmetric" GPIO override (if defined). The true GPIO override value will be set only in case that both GPIOs converge. If they diverge for longer than 500ms, than a non-fatal error is generated.
+        the FW will aggregate the values of the GPIO (if defined) and CAN override. The true override value will be set only in case that both signals converge. In case they diverge (i.e., one is true, while the other is false), we take the safe side and we set the true override value as true. However, if they diverge for longer than 500ms, than a non-fatal error is generated anyway. 
+   - improve Windows simulation for VIS
+
+
+* SM4_31_5552-sppe_e4de8d6.fw
+  Date 29.06.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           testing at the Hitachi Urahoro PG Testing (Japan) (not tested on the truck anymore, though)
+  Changes:
+  - finally fixing the problem with the "FC" error code showing up...
+
+
+* SM4.31_5551-sppe_ab6c6e4.fw
+  Date 27.06.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           testing at the Hitachi Urahoro PG Testing (Japan)
+  Changes:
+  - Another change dealing with the error handling (VIS ISO driver), that is:
+    ~ we raise a flag ("refStateNAckOrErrorReceived" --> re-used from the HXGN driver) once we got an
+	  "Error" or "Fault" frame from the VC, and on the other hand:
+    ~ we clear all the errors upon
+      . getting a "Health ACK" message from the VC or
+      . completing the initialization process (i.e., lifting the protocol state to "Active")
+  - Add protocol state with the VISS log entry
+
+
+* SM4.31_5549-sppe_164bb29.fw
+  Date 26.06.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           testing at the Hitachi Urahoro PG Testing (Japan)
+  Changes:
+  - Cherry-picked some bug fixes/improvements from FW4.2 branch, such as:
+    ~ Radar alarm simulation commanded via Textcomm
+	~ Filtering of PPS Alarm
+	~ Warning log entry
+	~ Log entries of Tailgating alarm
+	~ Tailgating Alarm notifications in Dataport
+    ~ PPS alarm beeps also when standing still
+	~ Rename PPS parameters (PPS-->PA)
+  - vcErrorCode is now correctly forwarded with ISO driver
+  - Fixed the "invalid payload state value" with the ISO driver
+  - Fixed the hoist-inhibit-override functionality for unknown body-down switch value
+
+  
+* SM4.31_5532-sppe_70c62a1.fw
+  Date 28.05.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS HXGN driver 
+           testing at the Volvo CE facility in Braås, Sweden
+  Changes:
+  - FIX: VIS diagnostic message accidentally still had a data length code of 3 instead of 8 
+  - mismatch errors with retarder, maxSpeed, and inhibitForward are triggered only if both of 
+    two corresponding signals are mismatching: 
+	~ retarder and maxSpeed or 
+	~ inhibitForward and maxSpeed 
+  - similar to the Komatsu driver, the warning flag may be disabled with config parameter
+    "vis_disable_warning"
+
+
+* SM4.31_5527-sppe_a121ca4.fw
+  Date 25.05.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS HXGN driver 
+           testing at the Volvo CE facility in Braås, Sweden
+  Changes:
+  - Updated the VIS HXGN driver to Protocol Version 2, see HXGN_VIS_SW_Spec_v2.3.pdf and under
+    https://confluence.hexagonmining.com/x/FwlFCQ 
+	respectively
+  - Additional features: articulationInhibit, warning, and targetSpeed
+  - Error flag for retarderIntensityMismatch is now shared with maxSpeedMismatch
+  - Error flag for starterInhibitMismatch is now shared with articulationInhibitMismatch
+  - Introduced an additional textcomm command for the new VIS HXGN driver feature articulationInhibit:
+    $vis,o,articulation,1
+    or just
+    $vis,o,art,1
+  - override mode value for "maxSpeed" now goes from 0 to 127 km/h:
+    $vis,o,msp,127
+
+
+* SM4.31_5522-sppe_0612e56.fw
+  Date 24.05.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           testing at the Caterpillar plant in Peterlee, UK
+  Changes:
+  - The ISO feature "Apply Propulsion Setpoint" for "Max Throttle" is now also activated if the 
+    retarderIntensity value is >0.
+
+	
+* SM4.31_5506-a3555f0ea.fw
+  Date 19.04.2018
+  Build by jhu
+  Purpose: Published and reviewed: vis_ra_max_retarder_intensity renamed to vis_max_retarder_intensity
+    and used it as global retarder gain (i.e. for RampAssist and TailgatingAssist)
+
+	
+* SM4.31_5502-sppe_1188166.fw
+  Date 16.04.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           Bench Testing at Hitachi, Ibaraki, Japan
+  Changes:
+  - Fixing a glitch related to the message counter incrementation (CSeq)
+
+	
+* SM4.31_5502-sppe_50c8a1f.fw
+  Date 12.04.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           Bench Testing at Hitachi, Ibaraki, Japan
+  Changes:
+  - added two additional small features for the Hitachi bench testing: now, the TextComm commands
+    ~ $vis,o,on followed by $vis,o,pause_pds_to_machine_action_message,1 or alternatively 
+      $vis,o,pma,1 will pause with sending any messages to the VC and
+    ~ $vis,o,pause_cseq_number_incrementation,1 or alternatively $vis,o,pci,1 will pause with
+      incrementing the message sequence number (counter)
+    ~ $vis,o,pma,0 and $vis,o,pci,0 respectively will resume normal operation
+
+  	
+* SM4.31_5501-sppe_ab14877.fw
+  Date 11.04.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           Testing at the Caterpillar Tucson Proving Grounds (TPG) in Tucson, AZ
+  Changes:
+  - Byte 1 and Byte 2 of the data message also need to be checked against any reserved codes, i.e.,
+    all the individual bytes are now first checked against any reserved codes.
+
+	
+* SM4.31_5498-sppe_df71b15.fw
+  Date 06.04.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not yet reviewed) firmware for the VIS ISO driver 
+           Testing at the Caterpillar Tucson Proving Grounds (TPG) in Tucson, AZ
+  Changes:
+  - Errors (especially happing during startup, i.e., before the communication link with the VC has 
+    initialized) are now displayed differently
+  - merged with the VIS Branch, see 
+    H:\Development\Releases\SMCAS\Testing\4.1.x_VIS_EXPERIMENTAL\Manifest.txt
+	for details
+  - merged the latest changes of the Master Branch, i.e.,
+    * NEW FEATURE "PersonalAlert": see application note
+    * NEW FEATURE "TailgatingAlarm": see application note
+    * NEW FEATURE "RampAlarm": see application note, e.g., under
+      H:\Development\Projects\VIS\12_Testing\Tools\AN_RampAlarm_v1.0_2018-02-08.pdf
+      --> Impact on RampAssist: RA is no longer defined via geo fences but is triggered as soon as
+	  a down slope is detected and when the vehicle going too fast
+	  These are the deprecated and the new configuration parameters (for reference only!):
+	  ~ Deprecated legacy parameters:
+        . vis_max_ramp_speed
+        . vis_max_ramp_speed_loaded
+        . vis_release_ramp_speed
+        . vis_inclination_source
+        . vis_slope_detection
+        . vis_slope_down_thresh
+        . vis_slope_up_thresh
+        . vis_slope_up_extend_duration
+	  ~ New parameters:	
+        . vis_overspeed_tolerance              = 2  // km/h
+        . rampalarm_slope_level_percent        = 0  // slope in percent for level slope detection [-5, 5]
+        . rampalarm_slope_shallow_ramp_percent = 5  // slope in percent for flat slope detection [0, 15]
+        . rampalarm_slope_steep_ramp_percent   = 10 // slope in percent for steep slope detection [0, 30]
+        . rampalarm_maxspeed_shallow_ramp      = 25 // maximal speed on flat ramp, in km/h [0,  100]
+        . rampalarm_maxspeed_steep_ramp        = 20 // maximal speed on steep ramp, in km/h [0,  100]
+        . rampalarm_release_speed_diff         = 10 // speed difference [km/h] to be below speed limit to release alarm [0,  30]
+        . rampalarm_maxspeed_reduction_loaded  = 10 // speed difference [km/h] to reduce maximal speed on ramp 		
+	* KeyControl (also known as KCS, DriverID, STID, and many other names): removed, i.e.,
+      this feature is no longer supported
+    * LTE: added support to LTE
+    * Collision algorithm: small modifications to be re-used by the Tailgating algorithm. 
+         Maximum acceptable altitude difference is configurable. 
+    * SMS Radar: Modified to allow parallel use with PersonalAlert. Radar module is executed only 
+         if radar is configured in the CAS configuration file. 
+    * Firmware update: Changed instant when firmware in external flash is deleted: from 
+         end of initialization procedure to right after the FFS is mounted.
+    * Configuration: fixed the configuration of several features. There were features that
+         were still allocating memory, even if they were not configured or were configured
+         to not be used, such as SyncStation and Radar. 
+    * Deprecated Parameters: Add a list of deprecated configuration parameters. These 
+         parameters will just be ignored, i.e., will not generate a fatal error in the 
+         unit. Further, it will log and print in the standard output if a deprecated
+         parameter is found in the config file. This slightly increases the time to
+         boot-up the unit.
+    * Logging: inserted field Warning into the log files. 
+    * GPIO: possibility of configuring a digital output in case of error. In case the config
+         has a parsing error, this output might not work correctly. 
+    * IVMS: fixed bug that IO_BRAKE_LEVEL was not being sent. IVMS signals can not anymore be
+         dynamically turned on or off, only through config files. To use IVMS signals 
+         selectively in areas, the signal has to be declared under the field ivmssignals. Add
+         error signal to the IVMS signals with the the following integer coded value into the 
+         Analog9 channel:
+             a * 10000 + (b % 10000)
+             where:
+                 a = error severity:
+                     ERROR_NONE =        0,
+                     ERROR_INFO =        1,
+                     ERROR_ALERT =       2,
+                     ERROR_FATAL =       3
+             and b = error type, which is the same used in the log files and in the display:
+                     ERROR_NO_ERROR      0
+                     ERROR_FLASH         1
+                     ERROR_SERIAL        2
+                     ERROR_DATAPORT      3
+                     ERROR_GPS           4
+                     ERROR_GPS_ANTENNA   5
+                     ERROR_BEACON        6
+                     ERROR_POWER         8
+                     ERROR_UI            16
+                     ERROR_RFID          17
+                     ERROR_CONFIG        32
+                     ERROR_OBSTACLE      33
+                     ERROR_RFCHANNEL     34
+                     ERROR_AREACONTROL   35
+                     ERROR_FIRMWARE      64
+                     ERROR_MEMORY        65
+                     ERROR_GENERIC       128
+                     ERROR_GPIO          256
+                     ERROR_RADAR         257
+                     ERROR_CAN           258
+                     ERROR_VIS           259
+                     ERROR_PPS           260
+                     ERROR_PREDICTION    512
+                     ERROR_NET           1024
+                     ERROR_CLOAKING      2048
+                     ERROR_DISABLED      4095
+    * Serial Devices: the number of connected serial devices can be configured. Minimum value
+         is set to 2 while default and maximum values are set to 6. When it is set to 6, the
+         firmware will behave as of today. If set to 2, it will be enabled the port of the 
+         Main Input of CAS and the port where Dataport is set. Any number larger than 2 will
+         enable first the explicitly configured ports and then start to enable in ascending
+         order the non-configured ports. Remember:
+             Port 0 - Main Input
+             Port 1 - Serial Extender Port 1
+             Port 2 - Serial Extender Port 2
+             Port 3 - Serial Extender Port 3
+             Port 4 - RS-485 Bus
+             Port 5 - unknown
+    * Configuration: removed hash table look-up of configuration parameters. Set or request
+         of configuration parameters is slightly slower. E.g., areas became 0.9ms slower on
+         average, booting-up became up to few seconds slower. ScopeScreen might be also few 
+         milliseconds slower
+    * Flash: add support for SST26. Modified driver for SSt25 to allow symmetric functionality
+         between SST25 and SST26.
+    * Memory: re-map memory layout
+    * Expiration: a non officially released version of the firmware has a default expiration
+         date of 100 days after the firmware build
+    * Clean-up: removed several unused features (FatigueAlarm, MR688, Preco radar, 
+         CAN Display, etc) and unused functions and variables in numerous modules (fwreader,
+         datalogger, config, onboard and Windows simulators modules, UI/display modules, 
+         uC programming interface, interrupts, hardware abstraction layer, time and timer,
+         debug, SMData modules, error handling, GPIO, alarm monitoring, RF and RFTCP protocols, 
+         navigation, system status, Textcomm protocol, protocols router, scheduller, file
+         handler and filesystem, EEPROM and external FLASH, radio, IO Expander, GNSS, )
+ 
+
+* SM4.11_5423M_adb32c2_ChangedOrderOfDataFrameByte2_ORonBit7_zero_based_CatWay.fw
+  Date 14.03.2018
+  Build by sppe
+  Purpose: Another temporary (un-published and un-reviewed) firmware for the 
+           Caterpillar Bench Testing in Decatur, IL
+  Changes:
+  - Changed the bit order of data Byte2: the Override bit is now expected at Bit7 instead of Bit6
+    (Cat made a misinterpretation of the ISO spec and we quickly wanted to check if it works 
+	otherwise... -- yes it does! :-)
+  
+
+* SM4.11_5423M_adb32c2_ChangedOrderOfDataFrameByte2_ORonBit6_zeroBased_likeSpec.fw
+  Date 14.03.2018
+  Build by sppe
+  Purpose: Another temporary (un-published and un-reviewed) firmware for the 
+           Caterpillar Bench Testing in Decatur, IL
+  Changes:
+  - Changed the bit order of data Byte2: the Override bit is now expected at Bit6 not Bit1
+  
+  
+* SM4.11_5423-sppe_adb32c2.fw  
+  Date 14.03.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not completely reviewed) firmware for the 
+           Caterpillar Bench Testing in Decatur, IL
+  Changes:
+  - Updates with CAN ID masking --> data frames from the VC so far were not processed with the 
+    ISO driver. Since the RTI structure was initialized with ones, the FW ended up behaving
+	like the Override Button had been pressed continously...
+	
+	
+* SM4.11_5419-sppe_0d14468_using_0xFA0080.fw  
+  Date 13.03.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not completely reviewed) firmware for the 
+           Caterpillar Bench Testing in Decatur, IL
+  Changes:
+  - Updates with Negotiation process, i.e., neglecting protocol number, machine model and generation
+  - merged all changes from the master, including a bug fix related to the initialization of the radars
+  
+  
+
+* SM4.11_5389-sppe_df1e215_using_0xFA0080.fw
+  Date 09.03.2018
+  Build by sppe
+  Purpose: Another temporary (published, but not completely reviewed) firmware for the 
+           Caterpillar Bench Testing in Decatur, IL
+  Changes:
+   - special version using ID 0xFA0080 (proposed by Bell) for the PDS->machine messages
+  
+  
+  
+* SM4.11_5388-sppe_a9b0bf1_using_0xAA0080.fw  
+  Date 09.03.2018
+  Build by sppe
+  Purpose: Another temporary (published, but un-reviewed) firmware for the 
+           Caterpillar Bench Testing in Decatur, IL
+  Changes:
+   - special version using (the original) ID 0xAA0080 for the PDS->machine messages
+
+  
+  
+* SM4.11_5384M-sppe_fe1ae4a_v180307_2017SEP_ISO_SPEC__TEMP_FOR_CREATING_ISO_CAN_LOGS.fw
+  Date 07.03.2018
+  Build by sppe
+  Purpose: Another temporary (un-published, un-reviewed) firmware for 
+           creating CAN log files for Hitachi, Cat, and Bell
+  Changes:  
+   - Now tolerant on VC reply messages from 
+     ~ Cat     (0x00FF0x10), 
+	 ~ Hitachi (0x00FF0x35), 
+	 ~ VCE     (0x00FF0x40), and 
+	 ~ Bell    (0x00FF0x45)
+   - Can now set a "max speed" value for "apply propulsion setpoint max speed" via 
+     TextComm command: $vis,o,msp,<value> or $vis,o,max_speed,<value> where <value> is accepted
+	 in the range [0..124]  [km/h]
+   
+  
+  
+* SM4.11_5384M-sppe_fe1ae4a_v180306_2017SEP_ISO_SPEC__TEMP_FOR_CREATING_ISO_CAN_LOGS.fw
+  Date 06.03.2018
+  Build by sppe
+  Purpose: Temporary built an (un-published, un-reviewed) firmware for 
+           creating CAN log files for Hitachi, Cat, and Bell
+  Changes:  
+   - Updated the ISO/EMESRT protocol from August 2017 version [1] to September 2017 version [2]
+     [1] Group drive: H:\Development\Projects\VIS\05_Software\specs\EMESRT\...
+	                  EMESRT draft 2017-08-06\ISO 21815 Part 2 draft ver2017-08-06 (002).pdf
+	 [2] Group drive: H:\Development\Projects\VIS\05_Software\specs\EMESRT\...
+                      version 2017-09\ISO-TC127-SC2-JWG28_N0066_WD21815_Part_2_draft_ver2017-09.pdf
+      or on Confluence: https://confluence.hexagonmining.com/x/6lLRCQ
+	  
+
+	  
